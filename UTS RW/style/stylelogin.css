@@ -1,0 +1,97 @@
+@import url('https://font.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-serif';
+}
+body{
+    background: darkblue;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 170px auto;
+}
+
+.wrapper{
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+}
+
+.wrapper .title{
+    line-height: 90px;
+    background: darkcyan;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.wrapper form{
+    padding: 30px 25px 25px 25px;
+}
+
+.wrapper form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+}
+
+.wrapper form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+    background: darkturquoise;
+    border: 1px solid #16a085;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper form .button input{
+    color: white;
+    padding-left: 0px;
+    background: darkturquoise;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid darkturquoise;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.wrapper form .button input:hover{
+    background: darkcyan;
+}
+
+.wrapper form .signup{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.wrapper form .signup a{
+    color: darkturquoise;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.wrapper form .signup a:hover{
+    text-decoration: underline;
+}
